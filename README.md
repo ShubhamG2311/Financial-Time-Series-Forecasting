@@ -21,6 +21,19 @@ The following models (or sequential combinations of models) have been implemente
 
 ## Results
 
+### 1. Using Simple LSTM on the time series data: 
+![image](https://github.com/ShubhamG2311/Financial-Time-Series-Forecasting/assets/76262127/2fd54c13-689c-49da-a7af-5fef189ccf0e)
+
+### 2. Using CNN on the GADF generated images: 
+![image](https://github.com/ShubhamG2311/Financial-Time-Series-Forecasting/assets/76262127/1ee2f202-4e60-4d0d-8742-cf6349e84130)
+
+### 3. Using LSTM on the GADF generated images (LSTM Image Model):
+![image](https://github.com/ShubhamG2311/Financial-Time-Series-Forecasting/assets/76262127/8db7ab79-0434-4803-b021-4ca619769ccf)
+
+### 4. Using ResNet-18 to encode images and passing embeddings to LSTM With Encoded Input:
+![image](https://github.com/ShubhamG2311/Financial-Time-Series-Forecasting/assets/76262127/ec3c82a5-b336-402c-a081-3c32ac7c03b9)
+
+
 The project demonstrates that the approach of using a pre-trained ResNet as a feature extractor, followed by an LSTM for forecasting, yields the most promising results, effectively capturing both spatial patterns in GADF images and temporal dependencies in time series data.
 
 ## Code
